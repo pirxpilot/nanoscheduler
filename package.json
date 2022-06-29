@@ -7,10 +7,10 @@
     "test": "standard"
   },
   "browser": {
-    "assert": "nanoassert"
+    "assert": "@pirxpilot/nanoassert"
   },
   "dependencies": {
-    "nanoassert": "^1.1.0"
+    "@pirxpilot/nanoassert": "~1"
   },
   "devDependencies": {
     "standard": "~17"
