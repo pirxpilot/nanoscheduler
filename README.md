@@ -1,13 +1,15 @@
-# nanoscheduler
-[![npm version][2]][3] [![build status][4]][5]
-[![downloads][8]][9] [![js-standard-style][10]][11]
+[![NPM version][npm-image]][npm-url]
+[![Build Status][build-image]][build-url]
+[![Dependency Status][deps-image]][deps-url]
 
-Schedule work to be completed when the user agent is idle. Weighs 270 bytes
+# @pirxpilot/nanoscheduler
+
+Fork of [nanoscheduler]. Schedule work to be completed when the user agent is idle. Weighs 270 bytes
 compressed.
 
 ## Usage
 ```js
-var NanoScheduler = require('nanoscheduler')
+var NanoScheduler = require('@pirxpilot/nanoscheduler')
 
 var scheduler = NanoScheduler()
 var i = 10000
@@ -31,21 +33,19 @@ Push a callback into the scheduler, to be executed when the user agent is idle.
 
 ## Installation
 ```sh
-$ npm install nanoscheduler
+$ npm install @pirxpilot/nanoscheduler
 ```
 
 ## License
 [Apache-2.0](./LICENSE)
 
-[0]: https://img.shields.io/badge/stability-experimental-orange.svg?style=flat-square
-[1]: https://nodejs.org/api/documentation.html#documentation_stability_index
-[2]: https://img.shields.io/npm/v/nanoscheduler.svg?style=flat-square
-[3]: https://npmjs.org/package/nanoscheduler
-[4]: https://img.shields.io/travis/choojs/nanoscheduler/master.svg?style=flat-square
-[5]: https://travis-ci.org/choojs/nanoscheduler
-[6]: https://img.shields.io/codecov/c/github/choojs/nanoscheduler/master.svg?style=flat-square
-[7]: https://codecov.io/github/choojs/nanoscheduler
-[8]: http://img.shields.io/npm/dm/nanoscheduler.svg?style=flat-square
-[9]: https://npmjs.org/package/nanoscheduler
-[10]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square
-[11]: https://github.com/feross/standard
+[nanoscheduler]: https://npmjs.org/package/nanoscheduler
+
+[npm-image]: https://img.shields.io/npm/v/@pirxpilot/nanoscheduler
+[npm-url]: https://npmjs.org/package/@pirxpilot/nanoscheduler
+
+[build-url]: https://github.com/pirxpilot/nanoscheduler/actions/workflows/check.yaml
+[build-image]: https://img.shields.io/github/workflow/status/pirxpilot/nanoscheduler/check
+
+[deps-image]: https://img.shields.io/librariesio/release/npm/@pirxpilot/nanoscheduler
+[deps-url]: https://libraries.io/npm/@pirxpilot%2Fnanoscheduler

@@ -1,10 +1,9 @@
 {
-  "name": "nanoscheduler",
+  "name": "@pirxpilot/nanoscheduler",
   "description": "Schedule work to be completed when the browser is idle.",
-  "repository": "choojs/nanoscheduler",
-  "version": "1.0.3",
+  "repository": "pirxpilot/nanoscheduler",
+  "version": "0.0.0",
   "scripts": {
-    "start": "node .",
     "test": "standard"
   },
   "browser": {
@@ -14,8 +13,7 @@
     "nanoassert": "^1.1.0"
   },
   "devDependencies": {
-    "standard": "^10.0.3",
-    "tape": "^4.8.0"
+    "standard": "^10.0.3"
   },
   "keywords": [
     "schedule",
@@ -27,5 +25,8 @@
     "push",
     "singleton"
   ],
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "files": [
+    "index.js"
+  ]
 }
