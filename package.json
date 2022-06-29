@@ -2,7 +2,7 @@
   "name": "@pirxpilot/nanoscheduler",
   "description": "Schedule work to be completed when the browser is idle.",
   "repository": "pirxpilot/nanoscheduler",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "scripts": {
     "test": "standard"
   },
