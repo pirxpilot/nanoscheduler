@@ -1,5 +1,5 @@
-const nanoScheduler = require('./')
+import nanoScheduler from './index.js';
 
-const scheduler = nanoScheduler()
-let i = 10000
-while (i--) scheduler.push(() => console.log(`idle time! ${Date.now()}`))
+const scheduler = nanoScheduler();
+let i = 10000;
+while (i--) scheduler.push(() => console.log(`idle time! ${Date.now()}`));
