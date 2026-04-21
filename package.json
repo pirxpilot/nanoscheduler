@@ -1,19 +1,20 @@
 {
   "name": "@pirxpilot/nanoscheduler",
   "description": "Schedule work to be completed when the browser is idle.",
-  "repository": "pirxpilot/nanoscheduler",
-  "version": "1.0.0",
-  "scripts": {
-    "test": "standard"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pirxpilot/nanoscheduler.git"
   },
-  "browser": {
-    "assert": "@pirxpilot/nanoassert"
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "make check"
   },
   "dependencies": {
-    "@pirxpilot/nanoassert": "~1"
+    "@pirxpilot/nanoassert": "~2"
   },
   "devDependencies": {
-    "standard": "~17"
+    "@biomejs/biome": "2.4.12"
   },
   "keywords": [
     "schedule",

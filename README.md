@@ -45,7 +45,7 @@ $ npm install @pirxpilot/nanoscheduler
 [npm-url]: https://npmjs.org/package/@pirxpilot/nanoscheduler
 
 [build-url]: https://github.com/pirxpilot/nanoscheduler/actions/workflows/check.yaml
-[build-image]: https://img.shields.io/github/workflow/status/pirxpilot/nanoscheduler/check
+[build-image]: https://img.shields.io/github/actions/workflow/status/pirxpilot/nanoscheduler/check.yaml?branch=main
 
 [deps-image]: https://img.shields.io/librariesio/release/npm/@pirxpilot/nanoscheduler
 [deps-url]: https://libraries.io/npm/@pirxpilot%2Fnanoscheduler
